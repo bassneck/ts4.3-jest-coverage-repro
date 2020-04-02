@@ -4,7 +4,7 @@
 module.exports = {
   clearMocks: true,
   coverageDirectory: "coverage",
-  preset: 'ts-jest/presets/js-with-ts',
+  preset: 'ts-jest',
   // Indicates whether each individual test should be reported during the run
   verbose: true,
 };
