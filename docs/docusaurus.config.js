@@ -4,10 +4,10 @@ module.exports = {
   title: 'ts-jest',
   tagline: 'A TypeScript preprocessor with source map support for Jest that lets you use Jest to test projects written in TypeScript.',
   url: 'https://ahnpnl.github.io',
-  baseUrl: '/ts-jest/',
+  baseUrl: '/ts-jest-only-example/',
   favicon: 'img/logo.svg',
   organizationName: 'ahnpnl',
-  projectName: 'ts-jest',
+  projectName: 'ts-jest-only-example',
   themeConfig: {
     navbar: {
       title: 'Home',
