@@ -36,7 +36,11 @@
 }
 
 @media (min-width: 1024px) {
-  header, main {
+  header {
+    width: 1032px;
+  }
+
+  main {
     max-width: 1032px;
   }
 }
