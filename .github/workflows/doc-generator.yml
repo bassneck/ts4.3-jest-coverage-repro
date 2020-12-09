@@ -1,5 +1,9 @@
-name: Build and Deploy
-on: [push]
+name: doc-generator
+
+on:
+  push:
+    branches: [ master ]
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
