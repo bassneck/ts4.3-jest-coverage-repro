@@ -63,7 +63,6 @@ jobs:
           npm run build
       - name: Push generated documentation
         run: |
-          cd docs
           git config user.name "Doc Bot"
           git config user.email noreply@github.com
           git add -f docs/build
