@@ -63,9 +63,9 @@ jobs:
           npm run build
       - name: Push generated documentation
         run: |
-          cd docs/build
+          cd docs
           git config user.name "Doc Bot"
           git config user.email noreply@github.com
-          git add -f .
+          git add -f docs/build
           git commit -m "[BOT] 🤖 updates doc. No humans needed."
-          git push origin HEAD:gh-pages
+          git subtree push --prefix build origin gh-pages
