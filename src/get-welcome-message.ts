@@ -1,3 +1,3 @@
-export function getWelcomeMessage(username: Readonly<string>): string {
+export function getWelcomeMessage(username: string): string {
   return `yolo ${username}`;
 }
